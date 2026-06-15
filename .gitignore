@@ -1,0 +1,21 @@
+# Terraform local/state files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+*.tfvars
+
+# Lab generated files
+helper-userdata.sh
+roles.json
+
+# Keys / secrets
+*.pem
+*.key
+
+# Mac files
+.DS_Store
+
+# Word documents if not submitting
+*.docx
